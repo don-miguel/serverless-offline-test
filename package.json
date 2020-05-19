@@ -7,7 +7,6 @@
     "build": "tsc -p src",
     "watch": "tsc -p src -w",
     "lint": "tslint -p src/",
-    "postinstall": "npm i",
     "prepare": "npm run build"
   },
   "author": "",
