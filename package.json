@@ -1,0 +1,27 @@
+{
+  "name": "serverless-offline-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p src",
+    "watch": "tsc -p src -w",
+    "lint": "tslint -p src/",
+    "prepare": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/async": "^3.2.3",
+    "@types/lodash": "^4.14.151",
+    "@types/node": "^14.0.1",
+    "async": "^3.2.0",
+    "lodash": "^4.17.15",
+    "promise-async": "^0.2.0",
+    "typescript": "^3.9.2"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "ts-mocha": "^7.0.0"
+  }
+}
