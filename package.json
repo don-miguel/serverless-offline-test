@@ -18,10 +18,9 @@
     "async": "^3.2.0",
     "lodash": "^4.17.15",
     "promise-async": "^0.2.0",
-    "typescript": "^3.9.2"
-  },
-  "devDependencies": {
+    "typescript": "^3.9.2",
     "mocha": "^7.1.2",
     "ts-mocha": "^7.0.0"
-  }
+  },
+  "devDependencies": {}
 }
